@@ -1,8 +1,8 @@
 version: 2
 name: epimorphics/env-registry
 deployments:
-  - branch: "production"
-    publish: "production"
+  - branch: "prod"
+    publish: "prod"
   - branch: "uat"
     publish: "uat"
   - branch: "master"
