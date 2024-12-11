@@ -1,6 +1,6 @@
 .PHONY:	clean image publish tag test vars
 
-VERSION?=2.3.15
+VERSION?=2.3.20
 
 
 ACCOUNT?=$(shell aws sts get-caller-identity | jq -r .Account)
